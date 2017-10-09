@@ -14,6 +14,7 @@ public class TraveCosts {
 
 		totalCost = (distance/mpg)*pricePerGal;
 		System.out.println("The trip is going to cost $%5.2f", totalCost);
+		System.out.println("Try to get environment friendly.");
 		System.out.println();
 	}
 }
