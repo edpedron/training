@@ -13,6 +13,7 @@ public class GroceryList {
 		prices[5] = in.nextDouble();
 		double total = prices[0]+prices[1]+prices[2]+prices[3]+prices[4];
 		System.out.println("The total for all 5 items is: $%5.2f", total);
+		System.out.println();
 	}
 }
 
